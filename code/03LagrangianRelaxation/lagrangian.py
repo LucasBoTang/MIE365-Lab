@@ -34,10 +34,10 @@ model.optimize()
 
 # solution
 print("Objective Value: {:.2f}".format(model.ObjVal))
-print(f"H: {x[0].x:5.2f} tons Steel1 from Pike.")
-print(f"C: {x[1].x:5.2f} tons Steel2 from Pike.")
-print(f"M: {x[2].x:5.2f} tons Steel1 from Quid.")
-print(f"W: {x[3].x:5.2f} tons Steel2 from Quid.")
+print(f"{x[0].x:5.2f} tons Steel1 from Pike.")
+print(f"{x[1].x:5.2f} tons Steel2 from Pike.")
+print(f"{x[2].x:5.2f} tons Steel1 from Quid.")
+print(f"{x[3].x:5.2f} tons Steel2 from Quid.")
 print("\n\n")
 
 # =============================== Lagrangian ===============================
@@ -115,8 +115,8 @@ print(f"  x = {xval.tolist()}, Primal Obj = {ub:.2f}.\n")
 
 # solution
 print("Objective Value: {:.2f}".format(model.ObjVal))
-print(f"H: {x[0].x:5.2f} tons Steel1 from Pike.")
-print(f"C: {x[1].x:5.2f} tons Steel2 from Pike.")
-print(f"M: {x[2].x:5.2f} tons Steel1 from Quid.")
-print(f"W: {x[3].x:5.2f} tons Steel2 from Quid.")
+print(f"{x[0].x:5.2f} tons Steel1 from Pike.")
+print(f"{x[1].x:5.2f} tons Steel2 from Pike.")
+print(f"{x[2].x:5.2f} tons Steel1 from Quid.")
+print(f"{x[3].x:5.2f} tons Steel2 from Quid.")
 print("\n\n")
